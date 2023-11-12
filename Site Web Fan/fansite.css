@@ -1,0 +1,447 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(1300613.png) ;
+    background-size: cover; /* Ajuste la taille de l'image pour remplir l'ensemble de l'arrière-plan */
+    background-repeat: no-repeat;  /* Empêche la répétition de l'image */
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    text-align: right;
+    background-color: #7a8185;
+    padding: 10px;
+}
+
+nav .search-bar {
+    margin-left: auto; /* Déplace la barre de recherche à droite */
+}
+
+nav a {
+    margin-right: 80px; /* Espace entre les liens (ajustez selon vos préférences) */
+    text-decoration: none; /* Supprimer la décoration des liens */
+    color: #000000; /* Couleur du texte (ajustez selon vos préférences) */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px; /* Ajustez la taille du texte selon vos préférences */
+}
+
+.Titre h2,
+.group h2,
+.top-images h2,
+.bottom-image h2 {
+    font-family: 'Pacifico', cursive;
+    color: rgb(1, 1, 245);
+}
+
+.image-blue-lock {
+    width: 500px; /* Ajuste la largeur de l'image à 300 pixels */
+    height: auto; /* Garde les proportions de l'image */
+}
+
+.Titre {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(0, 0, 255);
+}
+
+.Titre p,
+.Titre h2 {
+        width: 70%; /* Largeur de la boîte */
+        margin: 0 auto; /* Centre la boîte horizontalement */
+        padding: 20px; /* Espace intérieur pour le texte */
+        background-color: rgba(102, 114, 119, 0.6); /* Couleur de fond avec transparence */
+        border-radius: 5px; /* Bords arrondis */
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Ombre portée */
+        text-align: center; /* Centre le texte à l'intérieur de la boîte */
+}
+
+.Classement {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(0, 0, 255);
+}
+
+.Classement p { 
+    width: 70%; /* Largeur de la boîte */
+    margin: 0 auto; /* Centre la boîte horizontalement */
+    padding: 20px; /* Espace intérieur pour le texte */
+    background-color: rgba(102, 114, 119, 0.6); /* Couleur de fond avec transparence */
+    border-radius: 5px; /* Bords arrondis */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    text-align: center; /* Centre le texte à l'intérieur de la boîte */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    color: rgb(21, 21, 219);
+    font-family: 'Indie Flower', cursive;
+}
+
+.top-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.group {
+    display: flex;
+}
+
+.image-rin,
+.image-Kunigami,
+.Image-Bachira {
+    width: 150x;
+    height: auto;
+    margin-bottom: 30px; /* Espacement entre les images et les descriptions */
+}
+
+.image-description {
+    text-align: center;
+}
+
+.bottom-image {
+    display: flex;
+    justify-content: center;
+}
+
+.Image.Isagi {
+    width: 200px; /* Largeur réduite de l'image */
+    height: auto;
+    margin-bottom: 10px; /* Espacement entre l'image et sa description */
+}
+
+
+
+.classement img.classe {
+    width: 500px; /* Nouvelle largeur */
+    height: auto; /* Nouvelle hauteur */
+}
+
+.prochains-matchs h2 {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(21, 21, 219);
+    font-size: 40px
+}
+
+.prochains-matchs p {
+    width: 70%; /* Largeur de la boîte */
+    margin: 0 auto; /* Centre la boîte horizontalement */
+    padding: 20px; /* Espace intérieur pour le texte */
+    background-color: rgba(102, 114, 119, 0.6); /* Couleur de fond avec transparence */
+    border-radius: 5px; /* Bords arrondis */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    text-align: center; /* Centre le texte à l'intérieur de la boîte */
+}
+
+.héros {
+    /* Styles généraux pour les sections héros */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.héros1, 
+.héros2 {
+    /* Styles spécifiques pour chaque héros */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+
+.vs-large {
+    font-size: 60px; /* Taille plus grande pour le VS central */
+    margin: 20px 0;
+    color: rgb(21, 21, 219);
+}
+
+.héros2 .Nagi {
+    width: 200px; /* Taille réduite pour l'image de Nagi */
+}
+
+.container {
+    /* Styles généraux pour le conteneur */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.héros1 p,
+.héros2 p {
+    width: 70%; /* Largeur de la boîte */
+    margin: 0 auto; /* Centre la boîte horizontalement */
+    padding: 20px; /* Espace intérieur pour le texte */
+    background-color: rgba(102, 114, 119, 0.6); /* Couleur de fond avec transparence */
+    border-radius: 5px; /* Bords arrondis */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    text-align: center; /* Centre le texte à l'intérieur de la boîte */
+}
+
+.compo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.compo-barcha,
+.compo-manshine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 150;
+    justify-content: center;
+}
+
+.barcha,
+.manshine {
+    max-width: 300px; /* Ajuste la largeur des images */
+}
+
+.compo-barcha {
+    margin: 0 150px 0 -10px; /* Applique une marge négative à gauche pour décaler l'image vers la gauche */
+}
+
+
+.prochains-matchs2 p {
+    width: 70%; /* Largeur de la boîte */
+    margin: 0 auto; /* Centre la boîte horizontalement */
+    padding: 20px; /* Espace intérieur pour le texte */
+    background-color: rgba(102, 114, 119, 0.6); /* Couleur de fond avec transparence */
+    border-radius: 5px; /* Bords arrondis */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    text-align: center; /* Centre le texte à l'intérieur de la boîte */
+}
+
+.prochains-matchs2 img.match {
+    width: 800px; /* Ajuste la largeur de la première image */
+}
+
+.héros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.héros3,
+.héros4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.héros3 img.Isagi,
+.héros4 img.Rin {
+    width: 200px; /* Ajuste la largeur des images des héros */
+}
+
+
+.héros3 p,
+.héros4 p {
+    width: 70%; /* Largeur de la boîte */
+    margin: 0 auto; /* Centre la boîte horizontalement */
+    padding: 20px; /* Espace intérieur pour le texte */
+    background-color: rgba(102, 114, 119, 0.6); /* Couleur de fond avec transparence */
+    border-radius: 5px; /* Bords arrondis */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    text-align: center; /* Centre le texte à l'intérieur de la boîte */
+}
+
+
+.compo1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.compo1 .compo-bastard,
+.compo1 .compo.manshine {
+    flex: 1;
+    max-width: 50%; /* Ajuste la largeur maximale de chaque image */
+}
+
+.compo1 img.bastard,
+.compo1 img.manshine {
+    width: 70%; /* Assure que les images occupent tout l'espace disponible */
+    height: auto; /* Maintient les proportions de l'image */
+}
+
+.produit h1 {
+    text-align: center;
+    color: rgb(21, 21, 219);
+    font-family: 'Indie Flower', cursive;
+}
+
+.mosaique {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes égales */
+    gap: 10px; /* Espacement entre les éléments */
+    padding: 10px;
+    margin-left: 150px;
+}
+
+.realisation {
+    background-color: rgba(102, 109, 119, 0.6);
+    border: 1px solid #ccc; /* Bordure autour de chaque réalisation */
+    text-align: center;
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.realisation p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.realisation img {
+    width: 150px;
+    height: 150px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+footer img {
+    width: 20px;
+    height: 25px;
+}
+
+.Contact {
+    margin: 70px;
+    background-color: rgba(102, 114, 119, 0.6); /* Ajoute un fond de couleur claire */
+    padding: 7px; /* Ajoute de l'espacement intérieur pour améliorer la lisibilité */
+    border-radius: 10px; /* Arrondi les coins de la section */
+    box-shadow: 2px 2px 5px #000000;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Pacifico', cursive; /* Utilisation de la police "Pacifico" */
+    color: rgb(7, 7, 7); /* Couleur bleue pour le texte du titre */
+    font-size: 50px; /* Ajustez la taille du texte selon vos préférences */
+}
+
+.center-text {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 18px; /* Ajustez la taille du texte selon vos préférences */
+}
+
+
+section img {
+    display: inline-block;
+    margin: 10px;
+    margin-right: 20px; /* Espace entre les images (ajustez selon vos préférences) */
+}
+
+.team-member {
+    text-align: center;
+    display: inline-block;
+    width: 30%; /* Ajustez la largeur en fonction du nombre de membres côte à côte */
+    margin: 0 10px; /* Espacement entre chaque membre */
+    vertical-align: baseline; /* Aligner les éléments en haut */
+}
+
+.team-member img{
+    object-fit: contain;
+    height: 200px;
+}
+
+.team-member h2 {
+    font-family: 'Archivo Black', cursive; /* Utilisation de la police "Archivo Black" */
+    font-weight: bold;
+}
+
+.team-member p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px; /* Espacement entre l'image et la description (ajustez selon vos préférences) */
+    margin: 0 10px; /* Espacement entre chaque membre de l'équipe */
+    font-family: 'Kalam', cursive; /* Applique la police "Kalam" */
+    font-size: 14px; /* Ajustez la taille du texte selon vos préférences */
+    box-sizing: border-box; /* Inclure les marges dans la largeur définie */
+    background-color: rgba(102, 114, 119, 0.6);
+    border-radius: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 20px 0; /* Espacement au-dessus et en dessous de chaque section */
+}
+
+/* Style pour le séparateur */
+.separator {
+    border-top: 1px solid #080808; /* Épaisseur et couleur de la ligne */
+    margin: 20px 0; /* Espacement au-dessus et en dessous du séparateur (ajustez selon vos préférences) */
+    border: none; /* Supprime la bordure par défaut de la ligne horizontale */
+    border-top: 1px solid #ccc; /* Épaisseur et couleur de la ligne */
+    margin-left: 40px; /* Marge à gauche du séparateur */
+    margin-right: 40px; /* Marge à droite du séparateur */
+}
+
+.mention {
+    text-align: center; /* Centre le texte */
+    margin: 20px 0; /* Espace autour de la section */
+}
+
+.mention h1 {
+    margin-bottom: 20px; /* Espace sous le titre */
+}
+
+.images {
+    display: flex;
+    justify-content: center; /* Centre les images horizontalement */
+    gap: 10px; /* Espace entre les images */
+}
+
+.images img {
+    width: 150px; /* Ajuste la largeur des images */
+    height: auto; /* Maintient les proportions */
+}
+
+.Liens {
+    margin: 70px;
+    background-color: rgba(102, 114, 119, 0.6); /* Ajoute un fond de couleur claire */
+    padding: 7px; /* Ajoute de l'espacement intérieur pour améliorer la lisibilité */
+    border-radius: 10px; /* Arrondi les coins de la section */
+    box-shadow: 2px 2px 5px #000000;
+}
+
+.logo img {
+    width: 30px; /* Ajuster la largeur selon vos préférences */
+    height: auto; /* Conserver les proportions d'origine */
+}

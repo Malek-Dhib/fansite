@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title> Contact - Blue Lock</title>
+    <link rel="stylesheet" href="fansite.css">
+</head>
+<body>
+    <header>
+        <nav>
+                <a href="actualite.html">Actualité</a>
+                <a href="realisations.html">Réalisations</a>
+                <a href="evenement.html">Événements</a>
+                <a href="photos_videos.html">Photos et Vidéos</a>
+                <a href="liens_fans.html">Liens Fans</a>
+                <a href="reseaux_sociaux.html">Réseaux Sociaux</a>
+                <a href="contact.html">Contact</a>
+                <div class="search-bar">
+                    <input type="text" placeholder="Rechercher">
+                    <button>Rechercher</button>
+                </div>
+        </nav>
+    </header>
+    
+    <div class="Contact" >
+        <h1>Contactez-nous</h1>
+        
+        <form action="traitement.php" method="post">
+            <label for="civilite">Civilité :</label>
+            <select id="civilite" name="civilite">
+                <option value="Monsieur">Monsieur</option>
+                <option value="Madame">Madame</option>
+            </select>
+            <br>
+
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            <br>
+
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required>
+            <br>
+
+            <label for="adresse">Adresse Postale :</label>
+            <textarea id="adresse" name="adresse" rows="4" cols="50" required></textarea>
+            <br>
+
+            <input type="checkbox" id="confidentialite" name="confidentialite" required>
+            <label for="confidentialite">J'accepte les politiques de confidentialité de l'entreprise</label>
+            <br>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+</body>
+</html>
